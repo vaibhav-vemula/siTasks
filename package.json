@@ -1,0 +1,45 @@
+{
+  "name": "screen-vault",
+  "version": "1.0.0",
+  "main": "expo-router/entry",
+  "scripts": {
+    "start": "expo start",
+    "ios": "expo run:ios",
+    "android": "expo run:android",
+    "build:ios:dev": "eas build --platform ios --profile development",
+    "build:ios:preview": "eas build --platform ios --profile preview"
+  },
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "2.1.2",
+    "expo": "~53.0.0",
+    "expo-asset": "~11.1.7",
+    "expo-av": "~15.1.7",
+    "expo-constants": "~17.1.8",
+    "expo-dev-client": "~5.2.4",
+    "expo-file-system": "~18.1.11",
+    "expo-font": "~13.3.2",
+    "expo-linking": "~7.1.7",
+    "expo-media-library": "~17.1.7",
+    "expo-router": "~5.1.11",
+    "expo-screen-capture": "~7.2.0",
+    "expo-screen-recorder": "^0.1.8",
+    "expo-secure-store": "~14.2.4",
+    "expo-splash-screen": "~0.30.10",
+    "expo-status-bar": "~2.2.3",
+    "expo-web-browser": "~14.2.0",
+    "nanoid": "^5.1.11",
+    "react": "19.0.0",
+    "react-native": "0.79.6",
+    "react-native-gesture-handler": "~2.24.0",
+    "react-native-safe-area-context": "5.4.0",
+    "react-native-screens": "~4.11.1",
+    "react-native-sia": "^0.14.0",
+    "react-native-view-shot": "4.0.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.25.0",
+    "@types/react": "~19.0.0",
+    "babel-plugin-module-resolver": "^5.0.3",
+    "typescript": "^5.3.3"
+  }
+}

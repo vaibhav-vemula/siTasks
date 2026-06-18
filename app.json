@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "SiTasks",
+    "slug": "screen-vault",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "screenvault",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.screenvault.app",
+      "infoPlist": {
+        "NSPhotoLibraryUsageDescription": "Saving screenshots and recordings to your photo library.",
+        "NSPhotoLibraryAddUsageDescription": "Saving screenshots and recordings to your photo library.",
+        "NSMicrophoneUsageDescription": "Recording audio during screen capture."
+      }
+    },
+    "plugins": [
+      "expo-router",
+      "expo-dev-client",
+      "expo-secure-store",
+      [
+        "expo-media-library",
+        {
+          "photosPermission": "Allow SiTasks to save screenshots and recordings.",
+          "savePhotosPermission": "Allow SiTasks to save screenshots and recordings.",
+          "isAccessMediaLocationEnabled": true
+        }
+      ],
+      "expo-asset",
+      "expo-font",
+      "expo-web-browser"
+    ]
+  }
+}
