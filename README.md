@@ -17,6 +17,12 @@ No server. No account data sold. Your tasks live on [Sia](https://sia.tech) — 
 
 ---
 
+## Demo
+
+▶️ **[Watch the demo video](https://youtube.com/shorts/NIJKk8MiWno?feature=share)**
+
+---
+
 ## What is SiTasks?
 
 SiTasks is an open-source iOS todo app that uses [Sia decentralized storage](https://sia.tech) as its backend. There is no server in the middle — every task you create is serialized to JSON and uploaded directly to the Sia network as an immutable pinned object. The app keeps a local copy in AsyncStorage for instant reads and syncs to Sia automatically in the background with a 2.5-second debounce after each change.
@@ -252,6 +258,6 @@ Issues and pull requests are welcome. Please open an issue first for any signifi
 
 ## License
 
-MIT © 2025 SiTasks Contributors
+MIT © 2026 SiTasks Contributors
 
 See [LICENSE](LICENSE) for the full text.
